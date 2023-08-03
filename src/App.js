@@ -7,8 +7,6 @@ import SearchResult from "./components/SearchResult";
 import VideoDetails from "./components/VideoDetails";
 import { AppContext } from "./context/ContextApi";
 
-import ytLogo from '../src/images/yt-logo-mobile.png'
-
 const App = () => {
     return (
         <AppContext>

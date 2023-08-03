@@ -5,7 +5,7 @@ import VideoCard from '../components/VideoCard';
 
 const Feed = () => {
 
-    const { loading, searchResults, mobileMenu } = useContext(Context);
+    const { loading, searchResults } = useContext(Context);
 
     useEffect(() => {
         document.getElementById('root').classList.remove('custom-h')
