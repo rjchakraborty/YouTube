@@ -15,6 +15,7 @@ const SearchResult = () => {
     useEffect(() => {
         document.getElementById('root').classList.remove('custom-h');
         fetchSearchResultApi();
+        // eslint-disable-line react-hooks/exhaustive-deps
     }, [searchQuery]);
 
     const fetchSearchResultApi = () => {
