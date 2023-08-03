@@ -20,7 +20,7 @@ const VideoDetails = () => {
         document.getElementById('root').classList.add('custom-h')
         fetchVideoDetails();
         fetchRelatedVideos();
-        // eslint-disable-line react-hooks/exhaustive-deps
+        // eslint-disable-next-line
     }, [id]);
 
     const fetchVideoDetails = () => {
